@@ -18,7 +18,7 @@ pip install numpy scikit-learn matplotlib # 安装几个常用计算和绘图库
 
 打开命令行软件(iTerm2)，然后执行如下命令即可开始训练：
 ```sh
-cd ~/Documents/signal_machine_learning/code/ && sh run.sh
+cd ~/Documents/signal_machine_learning/code/ && python3 train.py
 ```
 
 注：
