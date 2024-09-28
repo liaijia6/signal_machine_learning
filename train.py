@@ -84,13 +84,14 @@ model.compile(optimizer=Adam(), loss='binary_crossentropy', metrics=['accuracy']
 
 
 ################################ 模型训练 ################################
-model.fit(X_train, y_train, epochs=12, batch_size=64, validation_split=0.1)
+model.fit(X_train, y_train, epochs=10, batch_size=32, validation_split=0.1)
 # 如果有2万个样本，batch_size=32，那么每个epoch会处理20000/32个batch，每个batch处理32个样本。
 # 如果有2千个样本，batch_size=32，那么每个epoch会处理2000/32个batch，每个batch处理32个样本。
 # batch size一般都是 2的指数次方。
-# 第一组实验：batch_size=32，epoch=10, 训练集准确率90.99%
-# 第2组实验：batch_size=64，epoch=10, 训练集准确率92.99%
-# 第3组实验：batch_size=128，epoch=10, 训练集准确率92.99%
+# 第一组实验：batch_size=32，epoch=10, 训练集准确率...
+# 第2组实验：batch_size=64，epoch=10, 训练集准确率... 
+# 第3组实验：batch_size=128，epoch=10, 训练集准确率...
+# ...
 
 
 
